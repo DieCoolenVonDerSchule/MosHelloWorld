@@ -17,8 +17,6 @@ load('api_gpio.js');
 let led = 14;
 GPIO.set_mode(led, GPIO.MODE_OUTPUT);
 
-// set your feed name here
-let feedName = 'HelloWorld';
 
 //some millisecond settings. adjust to your needs
 
